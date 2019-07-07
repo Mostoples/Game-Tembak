@@ -1,0 +1,66 @@
+#bg{
+	background : url(../source/bg/2.gif);
+	background-size : cover;
+	
+	position : absolute;
+	left : 0;
+	right : 0;	
+	bottom : 0;
+	top : 0;
+	width : 110%;
+	height : 110%;
+	background-size : cover;
+	background-repeat : no-repeat;
+	animation-name : wiggle;
+	animation-duration : 5s;
+	animation-iteration-count : infinite;
+	animation-timing-function : ease-in-out;
+	z-index : -10;
+}
+
+
+body{
+	background : black;
+	overflow : hidden;
+	
+}
+
+#halof-title{
+	color : white;
+	font-family : kidszone;
+	font-size : 3vw;
+	position : absolute;
+	left : 0;
+	right : 0;
+	width : auto;
+	text-align : center;
+	
+	
+}
+
+#container{
+	color : white;
+	font-family : sans-serif;
+	background : rgba(0,255,255,0.2);
+	position : absolute;
+	top : 9vw;
+	left : 19vw;
+	height : 34vw;
+	width : 60vw;
+	overflow : auto;
+	
+}
+
+table{
+	position : absolute;
+	top : 0;
+	left : 0;
+	background : rgba(0,255,255,0.2);
+	width : 60vw;
+	
+}
+
+tr{
+	
+	
+}

@@ -1,0 +1,472 @@
+body {
+
+	
+	background-repeat : no-repeat;
+	background-size : cover;
+	
+	cursor: url('../source/weapon/target.png'), auto;
+	
+	
+}
+
+
+
+
+#musicarea{
+	opacity : 0;
+
+}
+
+
+.trash{
+	position : absolute;	
+	width : 3vw;
+	height : 3vw;
+	cursor: url('../source/weapon/target red.png'), auto;
+}
+
+
+
+
+#start {
+	background : url(../source/button/play.png);
+	position : absolute;
+	width : 11vw;
+	height : 4vw;
+	top : 10vw;
+	left : 10vw;
+	background-size : cover;
+	cursor : pointer;
+	
+}
+
+#ready-label{
+	font-family : kidszone;
+	font-size : 10vw;
+	color : white;
+	position : absolute;
+	top : -20vw;
+	left : 37vw;
+	
+	text-shadow : 1vw 1vw 10vw black;
+	
+}
+
+#gameover-label{
+	font-family : kidszone;
+	font-size : 10vw;
+	color : white;
+	position : absolute;
+	top : -20vw;
+	left : 37vw;
+	
+	text-shadow : 1vw 1vw 10vw black;
+	
+}
+
+
+#gameover-label2{
+	font-family : kidszone;
+	font-size : 10vw;
+	color : white;
+	position : absolute;
+	top : -20vw;
+	left : 26vw;
+	transition : all 1s;
+	text-shadow : 1vw 1vw 10vw black;
+	
+}
+
+#playagain-button{
+	position : absolute;
+	top : 28vw;
+	left : -20vw;
+	background : url(../source/button/restart.png);
+	background-size : cover;
+	width : 14vw;
+	height : 5vw;
+	cursor : pointer;
+	transition : all 1s;
+	z-index : 100;
+}
+
+#back-preset-button{
+	position : absolute;
+	top : 28vw;
+	right : -20vw;
+	background : url(../source/button/configure.png);
+	background-size : cover;
+	width : 14vw;
+	height : 5vw;
+	cursor : pointer;
+	transition : all 1s;
+	z-index : 100;
+}
+
+#quit-button{
+	position : absolute;
+	top : 35vw;
+	right : -20vw;
+	background : url(../source/button/quit2.png);
+	background-size : cover;
+	width : 14vw;
+	height : 5vw;
+	cursor : pointer;
+	transition : all 1s;
+	z-index : 100;
+}
+
+#yourscore-label{
+	position : absolute;
+	top : 22vw;
+	right : -20vw;
+	color : white;
+	font-family : kidszone;
+	font-size : 3vw;
+	width : 14vw;
+	height : 5vw;
+	cursor : pointer;
+	transition : all 1s;
+}
+
+
+#username-label{
+	position : absolute;
+	top : 19vw;
+	right : -20vw;
+	color : white;
+	font-family : kidszone;
+	font-size : 3vw;
+	width : 14vw;
+	height : 5vw;
+	cursor : pointer;
+	transition : all 1s;
+}
+
+@keyframes topmove{
+	from { top : 1vw; }
+	to { top : 50vw; }
+}
+
+
+@keyframes bottommove{
+	from { top : 50vw; }
+	to { top : 1vw; }
+	
+}
+
+
+@keyframes leftmove{
+	from { left : 1vw; }
+	to { left : 80vw; }
+	
+}
+
+
+@keyframes rightmove{
+	from { left : 80vw; }
+	to { left : 1vw; }
+	
+}
+
+@keyframes readymove{
+	0% {top : -20vw;}
+	50% {top : 20vw;}
+	100% {top : -20vw;}
+	
+}
+
+
+
+
+
+
+
+
+@keyframes move1{
+	0% { left : 10vw; top : 10vw;  }
+	20% { left : 50vw; top : 30vw; }
+	40% { left : 10vw; top : 31vw; } 
+	60% { left : 50vw; top : 10vw; }
+	80% { left : 50vw; top : 28vw; }
+	100% { left : 10vw; top : 32vw; }
+	
+}
+
+
+
+
+
+
+
+@keyframes move2{
+	0% { left : 10vw; top : 30vw;  }
+	10% { left : 40vw; top : 10vw; }
+	20% { left : 40vw; top : 35vw; }
+	40% { left : 65vw; top : 15vw; } 
+	60% { left : 75vw; top : 18vw; }
+	80% { left : 55vw; top : 37vw; }
+	90% { left : 20vw; top : 32vw; }
+	100% { left : 8vw; top : 35vw; }
+	
+}
+
+
+@keyframes move3{
+	0% { left : 10vw; top : 38vw;  }
+	20% { left : 35vw; top : 10vw; }
+	40% { left : 57vw; top : 10vw; } 
+	60% { left : 78vw; top : 22vw; }
+	80% { left : 30vw; top : 10vw; }
+	100% { left : 60vw; top : 36vw; }
+}
+
+
+@keyframes move4{
+	0% { left : 10vw; top : 8vw;  }
+	20% { left : 74vw; top : 8vw; }
+	40% { left : 52vw; top : 32vw; } 
+	60% { left : 50vw; top : 11vw; }
+	80% { left : 20vw; top : 38vw; }
+	100% { left : 80vw; top : 30vw; }
+}
+
+
+@keyframes move5{
+	0% { left : 10vw; top : 37vw;  }
+	10% { left : 40vw; top : 10vw; }
+	20% { left : 54vw; top : 40vw; }
+	40% { left : 12vw; top : 12vw; } 
+	50% { left : 32vw; top : 29vw;  }
+	60% { left : 50vw; top : 31vw; }
+	80% { left : 60vw; top : 15vw; }
+	100% { left : 80vw; top : 30vw; }
+}
+
+
+@keyframes move6{
+	0% { left : 10vw; top : 10vw;  }
+	10% { left : 20vw; top : 30vw; }
+	20% { left : 40vw; top : 10vw; }
+	40% { left : 56vw; top : 38vw; } 
+	50% { left : 77vw; top : 25vw; }
+	60% { left : 15vw; top : 35vw; }
+	80% { left : 40vw; top : 38vw; }
+	100% { left : 60vw; top : 20vw; }
+}
+@keyframes move7{
+	0% { left : 10vw; top : 20vw;  }
+	10% { left : 25vw; top : 30vw; }
+	20% { left : 45vw; top : 15vw; }
+	40% { left : 57vw; top : 38vw; } 
+	50% { left : 27vw; top : 23vw; }
+	60% { left : 75vw; top : 20vw; }
+	70% { left : 55vw; top : 12vw; }
+	80% { left : 65vw; top : 39vw; }
+	90% { left : 50vw; top : 25vw; }
+	100% { left : 79vw; top : 30vw; }
+}
+@keyframes move8{
+	0% { left : 15vw; top : 25vw;  }
+	10% { left : 38vw; top : 12vw; }
+	20% { left : 40vw; top : 35vw; }
+	40% { left : 65vw; top : 28vw; } 
+	50% { left : 78vw; top : 39vw; }
+	60% { left : 11vw; top : 26vw; }
+	80% { left : 76vw; top : 30vw; }
+	100% { left : 27vw; top : 25vw; }
+}
+@keyframes move9{
+	0% { left : 17vw; top : 10vw;  }
+	10% { left : 30vw; top : 38vw; }
+	20% { left : 45vw; top : 25vw; }
+	30% { left : 10vw; top : 37vw; } 
+	50% { left : 55vw; top : 12vw; }
+	60% { left : 65vw; top : 22vw; }
+	70% { left : 75vw; top : 14vw; }
+	80% { left : 67vw; top : 39vw; }
+	90% { left : 52vw; top : 35vw; }
+	100% { left : 76vw; top : 27vw; }
+}
+@keyframes move10{
+	0% { left : 14vw; top : 38vw;  }
+	10% { left : 10vw; top : 34vw; }
+	20% { left : 42vw; top : 25vw; }
+	30% { left : 10vw; top : 37vw; } 
+	40% { left : 38vw; top : 10vw; }
+	50% { left : 35vw; top : 25vw; }
+	60% { left : 10vw; top : 12vw; }
+	70% { left : 37vw; top : 36vw; }
+	80% { left : 57vw; top : 25vw; }
+	90% { left : 75vw; top : 23vw; }
+	100% { left : 54vw; top : 17vw; }
+}
+
+#audioarea{
+	opacity : 0;
+
+}
+
+
+
+
+#username-label-gameplay{
+	position : absolute;
+	top : 1vw;
+	left : 2vw;
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	-webkit-text-stroke-width: 0.1vw;
+	-webkit-text-stroke-color: black;
+}
+
+#level-label-gameplay{
+	position : absolute;
+	top : 4vw;
+	left : 2vw;
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	-webkit-text-stroke-width: 0.1vw;
+	-webkit-text-stroke-color: black;
+}
+
+
+#time-label-gameplay{
+	position : absolute;
+	top : 1vw;
+	right : 2vw;
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	-webkit-text-stroke-width: 0.1vw;
+	-webkit-text-stroke-color: black;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+}
+
+
+#score-label-gameplay{
+	position : absolute;
+	top : 4vw;
+	right : 2vw;
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	-webkit-text-stroke-width: 0.1vw;
+	-webkit-text-stroke-color: black;
+}
+
+
+#go-label{
+	font-family : kidszone;
+	font-size : 10vw;
+	color : white;
+	position : absolute;
+	top : -20vw;
+	left : 37vw;
+	text-shadow : 1vw 1vw 10vw black;
+}
+
+#contsfx{
+	visibility : hidden;
+	
+	
+}
+
+
+
+
+.cleanarea{
+	position : absolute;
+	left : -100vw;
+	top : -100vw;
+
+
+}
+
+
+#playerarea{
+	position : absolute;
+	height : 40vw;
+	width : 50vw;
+	bottom : -5vw;
+	right : 0;
+	animation-name : bernapas;
+	animation-duration : 2s;
+	animation-iteration-count : infinite;
+}
+
+
+.gunplay{
+	position : absolute;
+	left : 0;
+	top : 0;
+	right : 0;	
+	bottom : 0;
+	width : auto;
+	height : auto;
+	
+	
+
+}
+
+
+
+
+
+
+#gunreload{
+	background : url(../source/weapon/reload.gif);
+	background-size : cover;
+}
+
+
+@keyframes bernapas {
+	0% {bottom : -5vw}
+	50% {bottom : -3vw}
+	100% {bottom : -5vw}
+	
+}
+
+
+
+@keyframes out{
+	0% {top : 40vw;}
+	20% {top : 45vw;}
+	100% {top : -20vw;}
+}
+
+@keyframes injury {
+	0% {color : white; font-size: 2vw }
+	20% {color : white; font-size: 2vw}
+	80% {color : red; font-size: 3vw}
+	100% {color : red; font-size: 3vw}
+
+}
+
+
+@keyframes getpoint {
+	0% {color : white; font-size: 2vw }
+	20% {color : white; font-size: 2vw}
+	80% {color : cyan; font-size: 3vw}
+	100% {color : cyan; font-size: 3vw}
+
+}
+
+
+@keyframes gettime {
+	0% {color : white;  }
+	20% {color : white; }
+	80% {color : yellow; }
+	100% {color : yellow;  }
+
+}
+
+
+
+

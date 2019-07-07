@@ -1,0 +1,35 @@
+@font-face {
+  font-family: kidszone;
+  src: url(../source/font/KidsZone.woff);
+}
+
+@font-face {
+  font-family: eras;
+  src: url(../source/font/ERASBD.TTF);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../source/font/Roboto-Regular.ttf);
+}
+
+* {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+
+@keyframes wiggle{
+		0%{left : 0; top : 0;}
+		25%{left : -2%; top : -2%}
+		50%{left : 0%; top : -2%}
+		75%{left : 0%; top : 0%}
+		100%{left : 0%; top : 0%}
+}
+
+

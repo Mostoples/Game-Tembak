@@ -1,0 +1,160 @@
+#login-button{
+	background : url(../source/button/login.png);
+	background-size : cover;
+	position : absolute;
+	bottom : 10vw;
+	left : 45vw;
+	width : 11vw;
+	height : 4vw;
+	cursor : pointer;
+}
+
+
+
+
+#password-container {
+	position : absolute;
+	left : 42vw;
+	top : 28vw;
+    background: rgba(0,255,255,0.2);
+	width : 17vw;
+	height : 2.5vw;
+	outline : cyan solid 0.2vw;
+}
+
+#username-container {
+	position : absolute;
+	left : 42vw;
+	top : 20vw;
+    background: rgba(0,255,255,0.2);
+	width : 17vw;
+	height : 2.5vw;
+	outline : cyan solid 0.2vw;
+}
+
+input
+{
+    background-color: transparent;
+	text-align : center;
+	border : none;
+	color : white;
+	font-size : 1vw;
+	position : absolute;
+	top : 0.7vw;
+	left : 0.5vw;
+	right : 0.2vw;
+	width : 16vw;
+	height : 1vw;
+	
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+#bg{
+	background : url(../source/bg/2.gif);
+	background-size : cover;
+	
+	position : absolute;
+	left : 0;
+	right : 0;	
+	bottom : 0;
+	top : 0;
+	width : 110%;
+	height : 110%;
+	background-size : cover;
+	background-repeat : no-repeat;
+	animation-name : wiggle;
+	animation-duration : 5s;
+	animation-iteration-count : infinite;
+	animation-timing-function : ease-in-out;
+
+}
+
+body {
+	background : black;
+	overflow : hidden;
+}
+
+#home-label{
+	font-family : verdana;
+	font-size : 2vw;
+	color : white;
+	text-decoration : none;
+	
+}
+
+a{
+
+	color : white;
+	text-decoration : none;
+}
+
+#login-title-label{
+	position : absolute;
+	top : 5vw;
+	left : 42.5vw;
+	font-family : kidszone;
+	font-size : 4vw;
+	color : white;
+	text-decoration : none;
+}
+
+#username-label{
+	position : absolute;
+	top : 16vw;
+	left : 46.5vw;
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	text-decoration : none;
+
+}
+
+#register-label{
+	font-family : sans-serif;
+	color : white;
+	font-size : 1vw;
+	bottom : 2vw;
+	left : 44vw;
+	width : 20vw;
+	position : absolute;
+	
+}
+
+#password-label{
+	position : absolute;
+	top : 24vw;
+	left : 46.5vw;
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	text-decoration : none;
+}
+
+
+center{
+	
+	font-family : kidszone;
+	font-size : 2vw;
+	color : white;
+	text-decoration : none;
+
+}
+
+
+
+@keyframes wiggle{
+		0%{left : 0; top : 0;}
+		25%{left : -2%; top : -2%}
+		50%{left : 0%; top : -2%}
+		75%{left : 0%; top : 0%}
+		100%{left : 0%; top : 0%}
+}

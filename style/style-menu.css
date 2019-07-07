@@ -1,0 +1,265 @@
+#bg{
+	background : url(../source/bg/2.gif);
+	background-size : cover;
+	
+	position : absolute;
+	left : 0;
+	right : 0;	
+	bottom : 0;
+	top : 0;
+	width : 110%;
+	height : 110%;
+	background-size : cover;
+	background-repeat : no-repeat;
+	animation-name : wiggle;
+	animation-duration : 5s;
+	animation-iteration-count : infinite;
+	animation-timing-function : ease-in-out;
+
+}
+
+body {
+	background : black;
+	overflow : hidden;
+}
+
+
+#menu-label {
+	position : absolute;
+	top : 5vw;
+	left : 9vw;
+	font-family : kidszone;
+	font-size : 4vw;
+	color : white;
+	text-decoration : none;
+}
+
+#please{
+	position : absolute;
+	left : 0;
+	right : 0;
+	top : 2vw;
+	color : white;
+	font-family : roboto;
+	font-size : 2vw;
+	width : auto;
+	height : 5vw;
+	text-align : center;
+	
+	
+	
+}
+
+#play-button{
+	position : absolute;
+	top : 18vw;
+	left : 10vw;
+	background : url(../source/button/play.png);
+	background-size : cover;
+	width : 14vw;
+	height : 4vw;
+	cursor : pointer;
+}
+
+#halof-button{
+	position : absolute;
+	top : 24vw;
+	left : 10vw;
+	background : url(../source/button/halof.png);
+	background-size : cover;
+	width : 14vw;
+	height : 4vw;
+	cursor : pointer;
+	
+}
+
+
+#setting-button{
+	visibility : hidden;
+	position : absolute;
+	top : 24vw;
+	left : 19vw;
+	background : url(../source/button/setting2.png);
+	background-size : cover;
+	width : 14vw;
+	height : 4vw;
+	cursor : pointer;
+
+}
+
+#quit-button {
+	position : absolute;
+	top : 30vw;
+	left : 10vw;
+	background : url(../source/button/quit.png);
+	background-size : cover;
+	width : 14vw;
+	height : 4vw;
+	cursor : pointer;
+	
+}
+
+#quit-button:hover{
+	
+}
+
+#setting-button:hover{
+	
+}
+
+#play-button:hover{
+	
+}
+
+#halof-button:hover{
+	
+}
+
+
+#user-label {
+	position : absolute;
+	top : 1vw;
+	left : 1vw;
+	font-family : eras;
+	font-size : 1.2vw;
+	color : white;
+	text-decoration : none;
+}
+
+#score-label{
+	position : absolute;
+	top : 3vw;
+	left : 1vw;
+	font-family : eras;
+	font-size : 1.2vw;
+	color : white;
+	text-decoration : none;
+
+}
+
+
+#info-container{
+	background : rgba(0,255,255,0.2);
+	position : absolute;
+	left : 2vw;
+	top : 2vw;
+	width : 30vw;
+	height : 5vw;
+
+}
+
+
+
+#menu-container{
+	position : absolute;
+	left : 33vw;
+	top : 2vw;
+	
+	width : 35vw;
+	height : 40vw;
+	
+}
+
+#brick1{
+	position : absolute;
+	background : white;
+	left : -33.5vw;
+	top : 0;
+	bottom : 0;
+	height : auto;
+	width : 0.5vw;
+	box-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+
+}
+
+#brick2{
+	position : absolute;
+	background : white;
+	right : -32.5vw;
+	top : 0;
+	bottom : 0;
+	height : auto;
+	width : 0.5vw;
+	box-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+#brick3{
+	position : absolute;
+	background : white;
+	top : -2.5vw;
+	left : 0;
+	right : 0;
+	width : auto;
+	height : 0.5vw;
+	box-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+
+}
+
+#brick4{
+	position : absolute;
+	background : white;
+	bottom : -11vw;
+	left : 0;
+	right : 0;
+	width : auto;
+	height : 4vw;
+	box-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+
+}
+
+#sound-icon {
+	position : absolute;
+	background : url(../source/button/sound.png);
+	right : 3vw;
+	top : 2vw;
+	width : 5vw;
+	height : 5vw;
+	background-size : cover;
+	visibility : hidden;
+}
+
+#music-icon{
+	position : absolute;
+	background : url(../source/button/music.png);
+	right : 8vw;
+	top : 2vw;
+	width : 5vw;
+	height : 5vw;
+	background-size : cover;
+	visibility : hidden;
+}
+
+#profile-icon{
+	position : absolute;
+	right : 1vw;
+	top : 1vw;
+	font-size : 2vw;
+
+
+}
+
+#profile-container{
+	background : rgba(0,255,255,0.2);
+	position : absolute;
+	left : -50vw;
+	top : 10vw;
+	width : 30vw;
+	height : 30vw;
+	transition : all 0.5s;
+
+}
+
+#info-container:hover + #profile-container{
+	left : 2vw;
+
+}
+
+
+
+@keyframes wiggle{
+		0%{left : 0; top : 0;}
+		25%{left : -2%; top : -2%}
+		50%{left : 0%; top : -2%}
+		75%{left : 0%; top : 0%}
+		100%{left : 0%; top : 0%}
+}
