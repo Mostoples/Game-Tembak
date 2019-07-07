@@ -1,5 +1,6 @@
 # game-tembak
  Repository ini untuk file-file Ulangan Tengah Semester Pemrograman Web 2019 PTIK
+ Link situs : https://game-tembak.000webhostapp.com/
 
 # Creator
 1. Andreas Wegiq Adia Hendix - K3517008 
