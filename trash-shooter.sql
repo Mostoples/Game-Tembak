@@ -40,11 +40,11 @@ CREATE TABLE `score` (
 --
 
 INSERT INTO `score` (`username`, `playtime`, `level`, `score`) VALUES
-('dimdim', '2019-05-20 20:40:05', 1, 0),
-('dimdim', '2019-05-20 20:44:38', 1, 0),
-('dimdim', '2019-05-20 20:44:50', 1, 0),
+('a1', '2019-05-20 20:40:05', 1, 0),
+('a', '2019-05-20 20:44:38', 1, 0),
+('aa', '2019-05-20 20:44:50', 1, 0),
 ('andre', '2019-05-25 08:20:30', 1, 6),
-('andre', '2019-05-25 08:25:37', 1, 37),
+('aaaa', '2019-05-25 08:25:37', 1, 37),
 ('admin', '2019-07-08 02:33:25', 2, 8);
 
 -- --------------------------------------------------------
@@ -68,7 +68,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `name`, `photo`) VALUES
 (11, 'andre', 'mostoplesam@gmail.com', '$2y$10$8/cBLW.jx4GFaUF6xvHaoudWjaAWXX2T6U/2sLgX0.1cCEACY.lUK', 'Andreas Wegiq Adia Hendix', '0000406.jpg'),
-(12, 'dimdim', 'mostoplesam@gmail.com2', '$2y$10$wKVeRmLvxKpxLTGunjgOUOhIPevAmLcOnNeXLQcJydiOBDJKlI7u2', 'Adimas Agustinus', 'KTP.png'),
+(12, 'one', 'mostoplesam@gmail.com2', '$2y$10$wKVeRmLvxKpxLTGunjgOUOhIPevAmLcOnNeXLQcJydiOBDJKlI7u2', 'aa', ''),
 (13, 'admin', 'mostoplesam@gmail.com', '$2y$10$86yQGUdLS05Q40aUeUlijOdiGOtYO/fbfB9AxQz/3GfFXdHwFSR.y', 'admin', ''),
 (15, 'andreas', '', '$2y$10$tHcMD6vXttcl1Esn1yGBxeFcDMnq1cGULDHfKaKVXF7kVTZ5Vprh2', '', '');
 
