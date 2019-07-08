@@ -4,6 +4,7 @@
 
 # Creator
 1. Andreas Wegiq Adia Hendix - K3517008 
+2. Dini Erlinawati -k3517020
 2. Nur Anisah - K3517046
 3. Khoirul Anam - K3517032
 4. Azhar Aulia Afham - K3516016
