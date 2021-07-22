@@ -24,6 +24,6 @@ Untuk memainkan game ini, lakukan register terlebih dahulu, terdapat link halama
 
 <br/> untuk melihat hasil score user2 lain dapat dengan cara melihat di hall of fame
 
-
+Video Demo 
 Link dokumentasi : https://drive.google.com/open?id=1DyCivNJ3oFbCBK8kE0KV_vUJh8AsyTWG
 
